@@ -13,7 +13,9 @@ There is a  a pre-trained, `sklearn` model that has been trained to predict hous
 
 ---
 ## File strucuture
-
+1. CircleCI directory  `.circleci `
+2. Taining data:  `model_data`
+3. Run in Kubernetes:  `./run_kubernetes.sh`
 
 
 
