@@ -18,15 +18,13 @@ There is a  a pre-trained, `sklearn` model that has been trained to predict hous
 3. Out put data from ML:  `output_txt_files`
 4. Dockerfile setup   `Dockerfile`
 5. set of tasks to be executed for env set up  `Dockerfile`
-6. set of tasks to be executed for env set up  `app.py`
-7. set of tasks to be executed for env set up  `make_prediction.sh`
-8. set of tasks to be executed for env set up  `minikube`
-9. set of tasks to be executed for env set up  `requirements.txt `
-10. set of tasks to be executed for env set up  `run_docker.sh`
-11. set of tasks to be executed for env set up  `run_kubernetes.sh`
-12. set of tasks to be executed for env set up  `upload_docker.sh`
-13. 
-
+6. Python flask app-that serves out predictions about housing prices through API calls. `app.py`
+7. Sendssome input data to your containerized application via the appropriate Port: 8000  `make_prediction.sh`
+8. Kubernetes package, Minikube `minikube`
+9. All libraries need  `requirements.txt `
+10. Get Docker running, locally  `run_docker.sh`
+11. Deploy application using Kubernetes   `run_kubernetes.sh`
+12. upload to Docker hub `upload_docker.sh`
 
 ## Setup the Environment
 
