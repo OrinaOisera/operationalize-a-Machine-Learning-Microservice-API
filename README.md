@@ -14,9 +14,18 @@ There is a  a pre-trained, `sklearn` model that has been trained to predict hous
 ---
 ## File strucuture
 1. CircleCI directory  `.circleci `
-2. Taining data:  `model_data`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
-
+2. Taining data directory:  `model_data`
+3. Out put data from ML:  `output_txt_files`
+4. Dockerfile setup   `Dockerfile`
+5. set of tasks to be executed for env set up  `Dockerfile`
+6. set of tasks to be executed for env set up  `app.py`
+7. set of tasks to be executed for env set up  `make_prediction.sh`
+8. set of tasks to be executed for env set up  `minikube`
+9. set of tasks to be executed for env set up  `requirements.txt `
+10. set of tasks to be executed for env set up  `run_docker.sh`
+11. set of tasks to be executed for env set up  `run_kubernetes.sh`
+12. set of tasks to be executed for env set up  `upload_docker.sh`
+13. 
 
 
 ## Setup the Environment
