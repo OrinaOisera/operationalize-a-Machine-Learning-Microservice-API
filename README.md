@@ -12,6 +12,10 @@ There is a  a pre-trained, `sklearn` model that has been trained to predict hous
 
 
 ---
+## File strucuture
+
+
+
 
 ## Setup the Environment
 
@@ -30,3 +34,11 @@ There is a  a pre-trained, `sklearn` model that has been trained to predict hous
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+
+
+
+
+
+
+
